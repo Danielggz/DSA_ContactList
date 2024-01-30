@@ -28,7 +28,7 @@ public class BusinessContact extends Contact{
 
     @Override
     public String toString() {
-        return super.toString() + "\nBusiness Contact details: " + "\n Company Name: " + this.companyName; // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        return super.toString() + "\nBusiness Contact details: " + " Company Name: " + this.companyName; // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }
 
     

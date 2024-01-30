@@ -5,12 +5,14 @@
 
 package contact;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Daniel García
  * 22 jan 2024
  */
-public class Contact {
+public class Contact implements Serializable{
     private String firstname, lastname, email, address;
     private int phone;
 
@@ -67,7 +69,7 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Contact: \n" + " Firstname: " + firstname + "\n Lastname: " + lastname + "\n Email: " + email + "\n Address: " + address + "\n Phone: " + phone;
+        return "\nContact: \n" + "Firstname: " + firstname + " | Lastname: " + lastname + " | Email: " + email + " | Address: " + address + " | Phone: " + phone;
     }
     
     
